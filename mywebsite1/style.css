@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+  }
+ a{
+    text-decoration: none;
+    color: #5a5a5a;
+
+ }
+
+
+
+.me-2 {
+    margin-right: 0.1rem!important;
+}
+.flex-align{
+    display: flex;
+    align-items: center;
+
+}
+
+nav{
+    padding: 10px 1%;
+    justify-content: space-between;
+    box-shadow: 0px 0px 15px #494545;
+    position: sticky;
+    z-index: 10;
+   background-color:  rgb(128, 128, 197)
+}
+/* .navbar-logo{
+
+    width: 25px;
+    margin-right: 25px;
+} */
+.logo-img{
+    height: 55px;
+}
+.collapse{
+
+}
+.navbar-text{
+    padding-top: 15px;
+    margin-right: 10px;
+    color: rgb(194, 32, 32);
+}
+
+.form-input{
+    width: 85%;
+}
+
+.signLOGO{
+    height: 50px;
+    width: 40px;
+    border-top: 0;
+}
+
+.shoping-logo{
+    height:30px;
+    width: 40px;
+    border-top: 0 ;
+    margin-top: 10px;
+}
+.menu-icon{
+
+    height: 30px;
+    width: 40px;
+    margin-top: 10px;
+
+}
+.slide-row{
+
+    justify-content:center;
+    height: 200px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+@media screen and (min-width:900px){
+
+.form-control {
+   
+    width: 300px;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+}
+
+@media screen and (max-width:900px){
+
+    .navbar-btn{
+        display: none;
+    }
+    .menu-navbar{
+
+        text-align:start;
+        margin-top: 2%;
+    }
+    
+    .row-img{
+        height: 100px;
+        width: 150px;
+        text-align: end;
+    }
+    .slide-row{
+        display: none;
+    }
+    .slide-row-1{
+        display: none;
+    }
+    .slide2-img-1{
+        height: 170px;
+        width: 100%;
+    }
+    .slide2-img-2{
+        height: 170px;
+        width: 100%;
+    }
+    .slide2-img-3{
+        height: 170px;
+        width: 100%;
+    }
+    .shop-row{
+        justify-content: center;
+    }
+    .shop-img-2{
+        display: none;
+    }
+    .shop-img-3{
+        display: none;
+    }
+    .shop-img-4{
+        display: none;
+    }
+    .featured-column{
+        width: 150px;
+        margin-right: 35px;
+    }
+    .featured-col-title{
+        margin-bottom: 5px;
+        
+    }
+    .only-mobile-viwe{
+        margin-top: 40px;
+    }
+    .brands-img-1{
+        height: 70px;
+        width: 50px;
+    }
+    .auo-barand-img-1{
+        height: 50px;
+        margin-right: 10px;
+    }
+    .brand-text{
+        margin-bottom: 20px;
+    }
+    .brand-col-2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .center-img-2{
+
+        height: 100px;
+        width: 80%;
+        justify-content: center;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .form-head{
+        margin-top: 10px;
+    }
+    .btn-form{
+        background-color: brown;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 25%;
+    }
+    .featured-column-2{
+        display: none;
+    }
+    .form-section{
+        display: none;
+    }
+    .todays-offers{
+        display: none;
+    }
+    .footer-section-lap{
+        display: none;
+    }
+}
+
+/* .card-img-top-1{
+    height: 250px;
+    
+} */
+.card-1{
+    margin-top: 20px;
+    background-color: violet;
+    margin-right: -20px;
+    height: 100px;
+}
+
+.shop-head-text{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.shop-img-1{
+    margin-right: 10px;
+    background-image: url(images/new5.webp);
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+}
+.shop-img-2{ 
+    margin-right: 10px;
+    background-image: url(images/new1.webp);
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+}
+.shop-img-3{
+    margin-right: 10px;
+    background-image: url(images/new3.webp);
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+}
+.shop-img-4{
+    margin-right: 10px;
+    background-image: url(images/new2.webp);
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+@media screen and (min-width:1000px){
+    
+.menu-navbar{
+
+    padding-left: 250px;
+}
+.space-between-two-world{
+    margin-right: 20px;
+}
+
+.nav-dropdown{
+    padding-top: 20px;
+}
+/* .nav-shoping{
+    padding-top: 10px;
+    align-items: center;
+    height: 30px;
+} */
+
+.form-item{
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 5px;
+}
+.slide-row{
+
+    justify-content:center;
+    height: 200px;
+    margin-top: 15px;
+}
+/* .slide-row-img1{
+    wi
+} */
+.row-img{
+    height: 200px;
+    width: 250px;
+    text-align: end;
+}
+
+.slide-dive-mean{
+    background-color: #CCFFFF;
+    height: 250px;
+}
+.slide-dive-mean-1{
+    background-color: #ECDFFF;
+    height: 250px;
+
+}
+.slide-dive-mean-2{
+
+    background-color: #b7b7b7;
+    height: 250px;
+}
+.row-img-2{
+    height: 220px;
+    width: 100%;
+}
+.slide-row-1{
+    height:250px ;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.slide-2{
+    display: none;
+}
+.featured-watch{
+    display: none;
+}
+.only-mobile-viwe{
+    display: none;
+}
+.form-controler{
+    display: none;
+}
+.center-img{
+    display: none;
+}
+.form-control{
+    height: 40px;
+    /* width: 400px; */
+}
+    .form-section-btn {
+
+        height: 40px;
+        width: 300px;
+        background-color: brown;
+        border-top: 0;
+        border-bottom: 0;
+        border-right: 0;
+        border-left: 0;
+        margin-bottom: 20px;
+    }
+    .form-section-anchore{
+        /* margin-top: 20px; */
+        color: #14AAF5;
+
+    }
+    .form-section-mean-row{
+        height: 425px;
+    }
+    .form-img{
+        height: 425px;
+        width: 100%;
+    }
+    .form-first-column{
+        background-color: #D5F6FF;
+    }
+    .price-bg-color{
+        background-color: #96C3EB;
+    }
+    .todays-offer-text{
+        padding: 20px 2%;
+        background-color: #ECDFFF;
+    }
+    .todays-offer-img1{
+        height: 250px;
+        /* border: 1PX solid black;
+        border-left: 0; */
+    }
+    .today-offers-mean-row{
+        border: 1px solid black;
+    }
+}
+
+
+
